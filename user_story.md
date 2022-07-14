@@ -24,7 +24,7 @@
 
 # Paths must match these exactly!
 
-# · ‘127.0.0.1:8000/api/products/'
+<!-- # · ‘127.0.0.1:8000/api/products/' -->
 
 # · ‘127.0.0.1:8000/api/products/<int:pk>/’
 
