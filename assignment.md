@@ -13,16 +13,16 @@ Setup Steps
 <!-- 1.	Make a GitHub Repository (** with Python gitignore **)  -->
 <!-- 2.	Clone down repository to local computer -->
 <!-- 3.	Open folder in VS code and create/activate a local venv -->
-a.	“pipenv install”
-b.	“pipenv shell”
-4.	Select the correct Python interpreter for the project (See video in class channel)
-5.	Install all necessary packages
-a.	“pipenv install django”
-b.	“pipenv install djangorestframework”
-c.	WINDOWS- “pipenv install mysqlclient”
-d.	MAC - “pipenv install mysql-connector-python==8.0.26”
-6.	Create an initial Django project 
-a.	“django-admin startproject products_project .”
+<!-- a.	“pipenv install” -->
+<!-- b.	“pipenv shell” -->
+<!-- 4.	Select the correct Python interpreter for the project (See video in class channel) -->
+<!-- 5.	Install all necessary packages -->
+<!-- a.	“pipenv install django” -->
+<!-- b.	“pipenv install djangorestframework” -->
+<!-- c.	WINDOWS- “pipenv install mysqlclient” -->
+<!-- d.	MAC - “pipenv install mysql-connector-python==8.0.26” -->
+<!-- 6.	Create an initial Django project  -->
+<!-- a.	“django-admin startproject products_project .” -->
 7.	Create a local_settings.py file and import it into your settings.py file to prevent your settings from being pushed to the public repository. 
 8.	Cut & Paste DATABASES and SECRET_KEY from settings.py to local_settings.py. Change DATABASES to reflect the appropriate database NAME, ENGINE, USERNAME,PASSWORD, etc.
 Windows:  
