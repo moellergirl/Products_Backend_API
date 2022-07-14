@@ -76,7 +76,11 @@ WSGI_APPLICATION = 'backend_api_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mysql.connector.django',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'backend_api_database',
+        'HOST': 'localhost',
+        'USER': 'root',
+        "PASSWORD": 'OMG!wtf100',
+
     }
 }
 
