@@ -8,17 +8,17 @@
 
 <!-- # (/5 points): As a developer, I want to make good, consistent commits. -->
 
-# (/2.5 points) As a developer, I want to create a Product model
+<!-- # (/2.5 points) As a developer, I want to create a Product model -->
 
-# #Property names must be in snake_case and match the following exactly!
+<!-- # #Property names must be in snake_case and match the following exactly! -->
 
-#  title - CharField
+<!-- #  title - CharField -->
 
-# description - CharField
+<!-- # description - CharField -->
 
-# price - DecimalField
+<!-- # price - DecimalField -->
 
-# inventory_quantity – IntegerField
+<!-- # inventory_quantity – IntegerField -->
 
 # (/2.5 points) As a developer, I want my API to serve content on the following urls paths:
 
