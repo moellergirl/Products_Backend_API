@@ -6,7 +6,7 @@
 
 # Total points: /55 unweighted -> /5 weighted
 
-# (/5 points): As a developer, I want to make good, consistent commits.
+<!-- # (/5 points): As a developer, I want to make good, consistent commits. -->
 
 # (/2.5 points) As a developer, I want to create a Product model
 

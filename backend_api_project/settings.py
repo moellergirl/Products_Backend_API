@@ -70,19 +70,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend_api_project.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'mysql.connector.django',
-        'NAME': 'backend_api_database',
-        'HOST': 'localhost',
-        'USER': 'root',
-        "PASSWORD": 'OMG!wtf100',
-
-    }
-}
 
 
 # Password validation
@@ -125,3 +113,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+try:
+    from backend_api_project.local_settings import *
+except ImportError:
+    pass    

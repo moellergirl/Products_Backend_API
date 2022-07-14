@@ -23,16 +23,16 @@ Setup Steps
 <!-- d.	MAC - “pipenv install mysql-connector-python==8.0.26” -->
 <!-- 6.	Create an initial Django project  -->
 <!-- a.	“django-admin startproject products_project .” -->
-7.	Create a local_settings.py file and import it into your settings.py file to prevent your settings from being pushed to the public repository. 
-8.	Cut & Paste DATABASES and SECRET_KEY from settings.py to local_settings.py. Change DATABASES to reflect the appropriate database NAME, ENGINE, USERNAME,PASSWORD, etc.
-Windows:  
-Mac:  
-9.	Push project to GitHub repo.
-10.	Create database in MySQL Workbench
-11.	Execute migrations commands
-a.	“python manage.py migrate”
-12.	Create a new app for the products
-a.	“python manage.py startapp products”
+<!-- 7.	Create a local_settings.py file and import it into your settings.py file to prevent your settings from being pushed to the public repository.  -->
+<!-- 8.	Cut & Paste DATABASES and SECRET_KEY from settings.py to local_settings.py. Change DATABASES to reflect the appropriate database NAME, ENGINE, USERNAME,PASSWORD, etc. -->
+<!-- windows:   -->
+<!-- Mac:   -->
+<!-- 9.	Push project to GitHub repo. -->
+<!-- 10.	Create database in MySQL Workbench -->
+<!-- 11.	Execute migrations commands -->
+<!-- a.	“python manage.py migrate” -->
+<!-- 12.	Create a new app for the products -->
+<!-- a.	“python manage.py startapp products” -->
 13.	Follow user stories and continually refer back to video tutorial series while completing and testing your view functions!
 End Result
 The result of your Products API backend will be the execution of requests made in Postman.
